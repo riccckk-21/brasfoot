@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasfoot Simulação - Liga Personalizada</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">
+                <i class="fas fa-futbol"></i>
+                Brasfoot da Resenha
+            </h1>
+            <nav class="nav">
+                <button class="nav-btn active" data-tab="negociacoes">
+                    <i class="fas fa-exchange-alt"></i>
+                    Negociações
+                </button>
+                <button class="nav-btn" data-tab="campeoes">
+                    <i class="fas fa-trophy"></i>
+                    Campeões
+                </button>
+                <button class="nav-btn" data-tab="historico-campeoes">
+                    <i class="fas fa-history"></i>
+                    Histórico
+                </button>
+                <button class="nav-btn" data-tab="calendario">
+                    <i class="fas fa-calendar-alt"></i>
+                    Calendário
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <!-- Aba de Negociações -->
+            <section id="negociacoes" class="tab-content active">
+                <div class="section-header">
+                    <h2><i class="fas fa-exchange-alt"></i> Negociações em Andamento</h2>
+                    <p>Transferênciass entre os 12 clubes da liga</p>
+                </div>
+                <div class="negociacoes-grid" id="negociacoes-list">
+                    <!-- As negociações serão carregadas via JavaScript -->
+                </div>
+            </section>
+
+            <!-- Aba de Campeões -->
+            <section id="campeoes" class="tab-content">
+                <div class="section-header">
+                    <h2><i class="fas fa-trophy"></i> Campeões dos Campeonatos</h2>
+                    <p>Os grandes vencedores da temporada</p>
+                </div>
+                <div class="campeoes-grid" id="campeoes-list">
+                    <!-- Os campeões serão carregados via JavaScript -->
+                </div>
+            </section>
+
+            <!-- Aba de Histórico de Campeões -->
+            <section id="historico-campeoes" class="tab-content">
+                <div class="section-header">
+                    <h2><i class="fas fa-history"></i> Histórico de Campeões</h2>
+                    <p>Todos os vencedores das principais competições</p>
+                </div>
+                
+                <div class="historico-container" id="historico-campeoes-list">
+                    <!-- O histórico será carregado via JavaScript -->
+                </div>
+            </section>
+
+            <!-- Aba de Calendário -->
+            <section id="calendario" class="tab-content">
+                <div class="section-header">
+                    <h2><i class="fas fa-calendar-alt"></i> Calendário e Transferências</h2>
+                    <p>Datas importantes da temporada</p>
+                </div>
+                
+                <div class="calendario-stats">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-money-bill-wave"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Valor Total Gasto</h3>
+                            <span class="stat-value" id="total-gasto">€ 0</span>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-calendar"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Janela de Transferências</h3>
+                            <span class="stat-value" id="janela-transferencias">01/07 - 31/08</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="calendario-content">
+                    <div class="datas-temporada">
+                        <h3><i class="fas fa-calendar-days"></i> Datas da Temporada</h3>
+                        <div class="datas-list" id="datas-temporada">
+                            <!-- Datas serão carregadas via JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Brasfoot da Resenha - SuperLiga</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

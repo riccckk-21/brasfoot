@@ -1,0 +1,339 @@
+{
+  "config": {
+    "temporada": "2024/2025",
+    "janelaTransferencias": {
+      "inicio": "2024-07-01",
+      "fim": "2024-08-31"
+    },
+    "valorTotalGasto": 485000000
+  },
+  "clubes": [
+    {
+      "nome": "Real Madrid",
+      "abreviacao": "RMA",
+      "cor": "#00529F",
+      "treinador": "Carlo Ancelotti",
+      "orcamento": 500000000
+    },
+    {
+      "nome": "Barcelona",
+      "abreviacao": "BAR",
+      "cor": "#A50044",
+      "treinador": "Xavi Hernández",
+      "orcamento": 400000000
+    },
+    {
+      "nome": "Atlético Madrid",
+      "abreviacao": "ATM",
+      "cor": "#CB3524",
+      "treinador": "Diego Simeone",
+      "orcamento": 350000000
+    },
+    {
+      "nome": "Milan",
+      "abreviacao": "MIL",
+      "cor": "#000000",
+      "treinador": "Stefano Pioli",
+      "orcamento": 300000000
+    },
+    {
+      "nome": "Internazionale",
+      "abreviacao": "INT",
+      "cor": "#0068A8",
+      "treinador": "Simone Inzaghi",
+      "orcamento": 320000000
+    },
+    {
+      "nome": "Chelsea",
+      "abreviacao": "CHE",
+      "cor": "#034694",
+      "treinador": "Mauricio Pochettino",
+      "orcamento": 450000000
+    },
+    {
+      "nome": "Manchester City",
+      "abreviacao": "MCI",
+      "cor": "#6CABDD",
+      "treinador": "Pep Guardiola",
+      "orcamento": 600000000
+    },
+    {
+      "nome": "Manchester United",
+      "abreviacao": "MU",
+      "cor": "#DA291C",
+      "treinador": "Erik ten Hag",
+      "orcamento": 380000000
+    },
+    {
+      "nome": "Liverpool",
+      "abreviacao": "LIV",
+      "cor": "#C8102E",
+      "treinador": "Jürgen Klopp",
+      "orcamento": 420000000
+    },
+    {
+      "nome": "Arsenal",
+      "abreviacao": "ARS",
+      "cor": "#EF0107",
+      "treinador": "Mikel Arteta",
+      "orcamento": 350000000
+    },
+    {
+      "nome": "Bayern Munchen",
+      "abreviacao": "BAY",
+      "cor": "#DC052D",
+      "treinador": "Thomas Tuchel",
+      "orcamento": 480000000
+    },
+    {
+      "nome": "PSG",
+      "abreviacao": "PSG",
+      "cor": "#004170",
+      "treinador": "Luis Enrique",
+      "orcamento": 550000000
+    }
+  ],
+  "negociacoes": [
+    {
+      "id": 1,
+      "jogador": "Vinicius Junior",
+      "idade": 23,
+      "posicao": "Atacante",
+      "clubeAtual": "Real Madrid",
+      "clubeNovo": "Manchester City",
+      "valor": 120000000,
+      "status": "confirmada",
+      "data": "2024-07-15"
+    },
+    {
+      "id": 2,
+      "jogador": "Lionel Messi",
+      "idade": 36,
+      "posicao": "Atacante",
+      "clubeAtual": "PSG",
+      "clubeNovo": "Barcelona",
+      "valor": 0,
+      "status": "confirmada",
+      "data": "2024-07-10"
+    },
+    {
+      "id": 3,
+      "jogador": "Harry Kane",
+      "idade": 30,
+      "posicao": "Atacante",
+      "clubeAtual": "Tottenham",
+      "clubeNovo": "Bayern Munchen",
+      "valor": 100000000,
+      "status": "confirmada",
+      "data": "2024-07-20"
+    },
+    {
+      "id": 4,
+      "jogador": "Neymar Jr",
+      "idade": 32,
+      "posicao": "Atacante",
+      "clubeAtual": "PSG",
+      "clubeNovo": "Chelsea",
+      "valor": 80000000,
+      "status": "em negociação",
+      "data": "2024-07-25"
+    },
+    {
+      "id": 5,
+      "jogador": "Kevin De Bruyne",
+      "idade": 32,
+      "posicao": "Meio-campo",
+      "clubeAtual": "Manchester City",
+      "clubeNovo": "Real Madrid",
+      "valor": 90000000,
+      "status": "confirmada",
+      "data": "2024-08-01"
+    },
+    {
+      "id": 6,
+      "jogador": "Rafael Leão",
+      "idade": 24,
+      "posicao": "Atacante",
+      "clubeAtual": "Milan",
+      "clubeNovo": "Manchester United",
+      "valor": 85000000,
+      "status": "confirmada",
+      "data": "2024-08-05"
+    },
+    {
+      "id": 7,
+      "jogador": "Kylian Mbappé",
+      "idade": 25,
+      "posicao": "Atacante",
+      "clubeAtual": "PSG",
+      "clubeNovo": "Real Madrid",
+      "valor": 180000000,
+      "status": "rumor",
+      "data": "2024-08-10"
+    },
+    {
+      "id": 8,
+      "jogador": "Victor Osimhen",
+      "idade": 25,
+      "posicao": "Atacante",
+      "clubeAtual": "Napoli",
+      "clubeNovo": "Chelsea",
+      "valor": 120000000,
+      "status": "em negociação",
+      "data": "2024-08-12"
+    }
+  ],
+  "campeoes": [
+    {
+      "campeonato": "SuperLiga",
+      "temporada": "2023/2024",
+      "time": "Real Madrid",
+      "treinador": "Carlo Ancelotti",
+      "pontos": 92,
+      "vitorias": 29,
+      "saldoGols": 65
+    },
+    {
+      "campeonato": "Copa da SuperLiga",
+      "temporada": "2023/2024",
+      "time": "Barcelona",
+      "treinador": "Xavi Hernández",
+      "artilheiro": "Robert Lewandowski",
+      "gols": 28
+    },
+    {
+      "campeonato": "Champions League",
+      "temporada": "2023/2024",
+      "time": "Manchester City",
+      "treinador": "Pep Guardiola",
+      "artilheiro": "Erling Haaland",
+      "gols": 12
+    },
+    {
+      "campeonato": "Europa League",
+      "temporada": "2023/2024",
+      "time": "Atlético Madrid",
+      "treinador": "Diego Simeone",
+      "artilheiro": "Antoine Griezmann",
+      "gols": 8
+    }
+  ],
+  "historicoCampeoes": {
+    "SuperLiga": [
+      {"temporada": "01/02", "time": "Liverpool", "treinador": "Davi"},
+      {"temporada": "02/03", "time": "Chelsea", "treinador": "Fael"}
+    ],
+    "Copa da SuperLiga": [
+      {"temporada": "01/02", "time": "Bayern Munchen", "treinador": "Wesley"},
+      {"temporada": "02/03", "time": "Milan", "treinador": "Lipin"}
+    ],
+    "Champions League": [
+      {"temporada": "01/02", "time": "Não Houve", "treinador": "Não Houve"},
+      {"temporada": "02/03", "time": "Liverpool", "treinador": "Davi"}
+    ],
+    "Europa League": [
+      {"temporada": "01/02", "time": "Não Houve", "treinador": "Não Houve"},
+      {"temporada": "02/03", "time": "Barcelona", "treinador": "Dudu"}
+    ]
+  },
+  "calendario": {
+    "datasTemporada": [
+      {
+        "data": "2024-08-15",
+        "descricao": "Início da Temporada 2024/2025",
+        "tipo": "inicio"
+      },
+      {
+        "data": "2024-08-20",
+        "descricao": "SuperClássico: Real Madrid vs Barcelona",
+        "tipo": "jogo-importante"
+      },
+      {
+        "data": "2024-08-27",
+        "descricao": "Derby de Milão: Milan vs Internazionale",
+        "tipo": "jogo-importante"
+      },
+      {
+        "data": "2024-09-03",
+        "descricao": "Manchester City vs Liverpool",
+        "tipo": "jogo-importante"
+      },
+      {
+        "data": "2024-09-10",
+        "descricao": "Início da Fase de Grupos - Champions League",
+        "tipo": "competicao-europeia"
+      },
+      {
+        "data": "2024-09-17",
+        "descricao": "Bayern Munchen vs PSG",
+        "tipo": "jogo-importante"
+      },
+      {
+        "data": "2024-09-24",
+        "descricao": "Chelsea vs Arsenal",
+        "tipo": "jogo-importante"
+      },
+      {
+        "data": "2024-10-01",
+        "descricao": "Fase de Grupos - Champions League (Rodada 2)",
+        "tipo": "competicao-europeia"
+      },
+      {
+        "data": "2024-10-15",
+        "descricao": "Oitavas de Final - Copa da SuperLiga",
+        "tipo": "copa"
+      },
+      {
+        "data": "2024-10-29",
+        "descricao": "Quartas de Final - Copa da SuperLiga",
+        "tipo": "copa"
+      },
+      {
+        "data": "2024-11-12",
+        "descricao": "Semifinais - Copa da SuperLiga",
+        "tipo": "copa"
+      },
+      {
+        "data": "2024-11-26",
+        "descricao": "Final - Copa da SuperLiga",
+        "tipo": "final"
+      },
+      {
+        "data": "2024-12-10",
+        "descricao": "Final - Champions League",
+        "tipo": "final"
+      },
+      {
+        "data": "2024-12-20",
+        "descricao": "Fim da Temporada 2024/2025",
+        "tipo": "fim"
+      }
+    ],
+    "janelasTransferencias": [
+      {
+        "tipo": "verão",
+        "inicio": "2024-07-01",
+        "fim": "2024-08-31"
+      },
+      {
+        "tipo": "inverno",
+        "inicio": "2025-01-01",
+        "fim": "2025-01-31"
+      }
+    ]
+  },
+  "estatisticas": {
+    "totalTransferencias": 8,
+    "valorTotal": 485000000,
+    "transferenciaMaisCara": {
+      "jogador": "Kylian Mbappé",
+      "valor": 180000000,
+      "clubeOrigem": "PSG",
+      "clubeDestino": "Real Madrid"
+    },
+    "clubeQueMaisGastou": {
+      "clube": "Chelsea",
+      "valor": 200000000
+    }
+  }
+}
